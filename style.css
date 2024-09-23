@@ -1,0 +1,40 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+  background-color: #2a9d8f;
+}
+.container-load {
+  position: relative;
+  margin-left: 240px;
+  height: 10px;
+  width: 320px;
+  border: 10px solid #f4a261;
+  border-radius: 15px;
+}
+.container-load .color {
+  position: absolute;
+  background-color: #e4dbe3;
+  width: px;
+  height: 10px;
+  border-radius: 15px;
+  animation: loading 8s infinite linear;    
+}
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  25% {
+      width: 50%;
+  }
+  50% {
+      width: 75%;
+  }
+  75% {
+      width: 85%;
+  }
+  100% {
+      width: 100%;
+  }
+};
